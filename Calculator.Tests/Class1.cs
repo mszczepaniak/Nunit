@@ -15,6 +15,12 @@ namespace Calculator.Tests
             Assert.That(result, Is.EqualTo(3));
         }
 
-       
+        [Test]
+        public void ShouldMultiplyTwoNumbers()
+        {
+            var sut = new SimpleCalculator();
+            var result = sut.Multiply(2, 10);
+            Assert.That(result, Is.EqualTo(20));
+        }
     }
 }

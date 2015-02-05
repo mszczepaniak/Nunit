@@ -10,7 +10,7 @@
         public int Multiply(int a, int b)
         {
             // intentional bug
-            return a + b;
+            return a * b;
         }
     }
 }
